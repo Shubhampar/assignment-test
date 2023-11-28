@@ -1,0 +1,22 @@
+.navbar{
+    display: flex;
+    padding: 20px 20px 0px;
+    justify-content: space-between;
+}
+.navbarSelectDIv{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.navbarSelectDIv>select{
+    border: 2px solid blue;
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.navbarSelectDIv>select:focus{
+    outline: none;
+}

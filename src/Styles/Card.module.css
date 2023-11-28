@@ -1,0 +1,21 @@
+.cardWrapper{
+    text-align: start;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 10px;
+    margin: 20px;
+    cursor: pointer;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.cardTitle{
+    text-transform: capitalize;
+    margin-top: 0px;
+}
+.cardDesc{
+    text-transform: capitalize;
+    margin-bottom: 0px;
+    cursor: text;
+}
